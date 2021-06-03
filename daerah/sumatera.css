@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'poppins', sans-serif;
+}
+section{
+    margin-bottom: 4rem;
+}
+/* navbar (copy)*/
+.logo-ikon{
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #344fa1;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n){
+    color: white;
+    font-size: 1rem;
+}
+
+/* efek hover */
+li.nav-item:nth-child(n) > a:nth-child(n)::after{
+    content: "";
+    display: block;
+    width: 0;
+    /* height: 1px; */
+    background: black;
+    transition:.3s ease;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n):hover::after{
+    transition: .4s ease;
+    /* height: 3px; */
+    width: 100%;
+    transform: scale(1,1);
+}
+/* end */
+
+/* HEADER BAWAH */
+.jumbotron-header{
+    background-image: url('../img/header-sumatera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-position-y: 30%;
+}
+
+.header{
+    color:white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-bawah{
+    color: white;
+    text-align: center;
+}
+/* AKHIR HEADER BAWAH */
+
+
+
+/* footer (copy) */
+.biru{
+    color:rgb(21, 1, 229) ;
+}
+
+.footer{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.judul-footer{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;;
+}
+/* end footer */
+
+/* penutup */
+.penutup{
+    background:#344fa1 ;
+}
+
+.text-penutup{
+    color: white;
+}
+
+.text-logo{
+    color:#fb3640;
+}
+
+/* bantuan */
+.isi-bantuan{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.ubah-tombol{
+    background-color: rgb(21, 1, 229);
+    color: #fff;
+}
+
+.ubah-tombol:hover{
+    background-color: #0e00b3;
+    color: #fff;
+}
+
+.pembuka-form{
+    font-family:'Roboto', sans-serif ;
+}
+

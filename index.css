@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'poppins', sans-serif;
+}
+section{
+    margin-bottom: 6rem;
+}
+
+
+
+/* navbar (copy)*/
+.logo-ikon{
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #344fa1;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n){
+    color: white;
+    font-size: 1rem;
+}
+
+/* efek hover */
+li.nav-item:nth-child(n) > a:nth-child(n)::after{
+    content: "";
+    display: block;
+    width: 0;
+    /* height: 1px; */
+    background: black;
+    transition:.3s ease;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n):hover::after{
+    transition: .4s ease;
+    /* height: 3px; */
+    width: 100%;
+    transform: scale(1,1);
+}
+/* end */
+
+
+/* tombol */
+
+/*full*/
+.btn-primary{
+    color: white;
+    background-color:rgb(21, 1, 229);
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #0e00b3;
+}
+
+.btn-primary:hover{
+    box-shadow: inset 300px 0 0 0 #0e00b3;
+    color: white;
+}
+
+/* transparan */
+.btn-outline-primary{
+    color:rgb(21, 1, 229) ;
+    box-shadow: inset 0 0 1px rgb(21, 1, 229);
+    transition: ease-out 0.3s;
+}
+
+.btn-outline-primary:hover{
+    box-shadow: inset 300px 0 0 rgb(21, 1, 229) ;
+    color: white;
+}
+
+/* end tombol */
+
+/* kartu makanan */
+
+
+
+/* akhir kartu makanan */
+
+/* section */
+.blue{
+    color:rgb(21, 1, 229);
+}
+
+.tebal{
+    color:#0e00b3 ;
+}
+
+/* end section */
+
+/* footer (copy) */
+.biru{
+    color:rgb(21, 1, 229) ;
+}
+
+.judul-footer{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.footer{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+/* end footer */
+
+/* penutup */
+.penutup{
+    background:#344fa1 ;
+}
+
+.text-penutup{
+    color: white;
+}
+
+.text-logo{
+    color:#fb3640;
+}
+
+/* card */
+.bintang-produk{
+    color: #FFC400;
+}
+
+
+.card{
+    border: none;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    border: none;
+    border-radius: 1rem;
+    box-shadow:   -19px -19px 46px #b3b3b3;
+}
+
+.card-footer{
+    border: none;
+    border-radius:1.5rem ;
+}

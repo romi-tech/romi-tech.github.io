@@ -1,0 +1,64 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+section{
+    margin-bottom: 5rem;
+}
+/* navbar (copy)*/
+.logo-ikon{
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #344fa1;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n){
+    color: white;
+    font-size: 1rem;
+}
+
+/* efek hover */
+li.nav-item:nth-child(n) > a:nth-child(n)::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: black;
+    transition:.3s ease;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n):hover::after{
+    transition: .4s ease;
+    height: 3px;
+    width: 100%;
+    transform: scale(1,1);
+}
+/* end */
+
+
+/* footer (copy) */
+.biru{
+    color:rgb(21, 1, 229) ;
+}
+
+.footer{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+/* end footer */
+
+/* penutup */
+.penutup{
+    background:#344fa1 ;
+}
+
+.text-penutup{
+    color: white;
+}
+
+.text-logo{
+    color:#fb3640;
+}
